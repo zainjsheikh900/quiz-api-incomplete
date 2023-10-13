@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            display: flex;
+            justify-content: center;
+        }
+        #main .cat{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            flex-wrap: wrap;
+        }
+        .chota{
+            margin: 20px;
+            width: 230px;
+            background-color: black;
+            color: white;
+            height: 230px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-radius: 20px;
+            font-size: 25px
+        }
+
+        #top{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div id="top">
+    <h1>Quiz App</h1>
+
+    <h1>Choice Category</h1>
+</div>
+    <!-- <div id="main">
+        <div>
+        <label for="q1"><input type="radio" name="q" id="q1">fh </label>
+        <br>
+        <br>
+        <label for="q2"><input type="radio" name="q" id="q2">gh </label>
+        <br>
+        <br>
+        <label for="q3"><input type="radio" name="q" id="q3">gh </label>
+        <br>
+        <br>
+
+        <label for="q4"><input type="radio" name="q" id="q4">fgh</label>
+    </div>
+    </div> -->
+    <div id="main">
+
+    <div class="cat">
+        <div class="chota" onclick="ScienceGadgets()">Science: Gadgets</div>
+        <div class="chota">Science: Computers</div>
+        <div class="chota">History</div>
+        <div class="chota">Mythology</div>
+        <div class="chota">Entertainment: Film</div>
+        <div class="chota">General Knowledge</div>
+        <div class="chota">Politics</div>
+        <div class="chota">Celebrities</div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
